@@ -117,7 +117,9 @@ Cuando la iluminación del microscopio no es perfectamente homogénea, para una 
 Este protocolo realiza una corrección píxel a píxel utilizando tres imágenes:
 
 1. `imagen_celulas.tif`   
+
 2. `ruido_oscuridad.tif`   
+
 3. `fluorescent_slide.tif` ( imagen de fluorescencia del portaobjeto de plástico fluorescente obtenido con el mismo objetivo, canal y configuración de la cámara que la `imagen_celulas.tif`).
 
 📐 La Fórmula Matemática
