@@ -66,6 +66,6 @@ Para obtener el ancho de la PSF en píxeles, sólo se debe dividir por el tamañ
 
 dPSF pixeles \= dPSFtamaño pixel
 
-> 1. Aplique un Filtro Gaussiano, **Process \> Filters \> Gaussian Blur...** con el valor de sigma calculado.
+1. Aplique un Filtro Gaussiano, **Process \> Filters \> Gaussian Blur...** con el valor de sigma calculado.
 
-> 2. Discuta si “ve” que la imagen perdió calidad. Aunque parece que se ve menos nítido, nuestra vista es muy sensible al contraste y ver que bajó la cantidad de detalles (ruido de alta frecuencia espacial) nos hace sospechar que bajó la calidad. Sin embargo, esa información de alta frecuencia no estaba realmente ahí ya que estaba por debajo de la resolución del microscopio.
+2. Discuta si “ve” que la imagen perdió calidad. Aunque parece que se ve menos nítido, nuestra vista es muy sensible al contraste y ver que bajó la cantidad de detalles (ruido de alta frecuencia espacial) nos hace sospechar que bajó la calidad. Sin embargo, esa información de alta frecuencia no estaba realmente ahí ya que estaba por debajo de la resolución del microscopio.
