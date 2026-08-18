@@ -4,7 +4,7 @@
 
 En este ejercicio reproduciremos los resultados del método (**Process \> Find Edges**) calculando el *módulo del gradiente* para una imagen. Recordemos que *el módulo del gradiente* se calcula mediante la siguiente ecuación
 
- [![][image1]](https://saxarona.github.io/mathjax-viewer/?input=%7C%5Cnabla%20I%7C%20%3D%20%5Csqrt%7B\(%5Cnabla_x%20I\)%5E2%2B\(%5Cnabla_y%20I\)%5E2%7D#0) 				(1)
+$$|\nabla I| = \sqrt{(\nabla_x I)^2 + (\nabla_y I)^2}$$ (1)
 
 donde [![][image2]](https://saxarona.github.io/mathjax-viewer/?input=%5Cnabla_x#0) y [![][image3]](https://saxarona.github.io/mathjax-viewer/?input=%5Cnabla_y#0) son las componentes del gradiente (derivada) horizontal y vertical respectivamente. Utilizar la imagen parasitos.tif, y convertirla a 32 bits para trabajar con ella y sus duplicados.
 
