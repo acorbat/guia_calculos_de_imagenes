@@ -6,23 +6,23 @@ En este ejercicio reproduciremos los resultados del método (**Process \> Find E
 
 $$|\nabla I| = \sqrt{(\nabla_x I)^2 + (\nabla_y I)^2}$$ (1)
 
-donde [![][image2]](https://saxarona.github.io/mathjax-viewer/?input=%5Cnabla_x#0) y [![][image3]](https://saxarona.github.io/mathjax-viewer/?input=%5Cnabla_y#0) son las componentes del gradiente (derivada) horizontal y vertical respectivamente. Utilizar la imagen parasitos.tif, y convertirla a 32 bits para trabajar con ella y sus duplicados.
+donde $\nabla_x$ y $\nabla_y$ son las componentes del gradiente (derivada) horizontal y vertical respectivamente. Utilizar una imagen y convertirla a 32 bits para trabajar con ella y sus duplicados.
 
 1. Para calcular el módulo del gradiente seguir el siguiente procedimiento:
 
-   1. Calcular [![][image4]](https://saxarona.github.io/mathjax-viewer/?input=\(%5Cnabla_x%20I\)%5E2#0). 
+   1. Calcular $(\nabla_x I)^2$. 
 
       1. Obtener una imagen con el gradiente horizontal mediante un filtro de Sobel con un núcleo apropiado.
 
       2. Obtener una imagen con los valores de los píxeles al cuadrado.
 
-   2. Calcular [![][image5]](https://saxarona.github.io/mathjax-viewer/?input=%5Cnabla_y%20I#0). 
+   2. Calcular $(\nabla_y I)^2$. 
 
       1. Obtener una imagen con el gradiente vertical mediante un filtro de Sobel con un núcleo apropiado.
 
       2. Obtener una imagen con los valores de los píxeles al cuadrado.
 
-   3. Sumar las imágenes con los cuadrados de las imágenes de gradientes [![][image6]](https://saxarona.github.io/mathjax-viewer/?input=\(%5Cnabla_x%20I\)%5E2%2B\(%5Cnabla_y%20I\)%5E2#0)
+   3. Sumar las imágenes con los cuadrados de las imágenes de gradientes $(\nabla_x I)^2 + (\nabla_y I)^2$
 
    4. Calcular la raíz cuadrada de la suma anterior
 
